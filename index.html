@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- Score Banner -->
+    <div class="score-banner">
+        <div class="score">
+            <div id="user-score-div">
+                <p>You: <span id="user-score-span">0</span></p>
+            </div>
+        </div>
+        <div class="score">
+            <div id="pc-score-div">
+                <p>PC: <span id="pc-score-span">0</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- Buttons -->
+    <div class="input-putton-container">
+        <div class="buttons">
+            <button id="Rock" value="rock">Rock</button>
+            <button id="Paper" value="paper">Paper</button>
+            <button id="Scissors" value="scissors">Scissors</button>
+        </div>
+    </div>
+    <!-- Message -->
+    <div class="message-div-container">
+        <div id="message">
+            <ul class="message-list"></ul>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
